@@ -146,8 +146,6 @@ The repository has a generated `public/` directory, but deployment rebuilds from
 
 The theme and Hugo/Goldmark setup support rich Markdown with syntax highlighting. `hugo.toml` enables unsafe Goldmark rendering, so inline HTML is allowed when useful.
 
-Use the existing kitchen-sink page at `content/blog/typesetting-test.md` as the reference for supported formatting.
-
 Supported patterns include:
 
 ### Headings
