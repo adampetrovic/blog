@@ -7,12 +7,12 @@ locale = "en-AU"
 enableRobotsTXT = true
 
 # Bear Blog-style URLs: blog entries live at /post-slug/ rather than /blog/post-slug/.
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
-
 [permalinks]
   blog = "/:slug/"
-  tags = "/blog/:slug"
+  tags = "/blog/tags/:slug/"
+
+[taxonomies]
+  tag = "tags"
 
 [params]
   title = "Adam’s Blog"

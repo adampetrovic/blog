@@ -40,6 +40,7 @@ title = "My Post Title"
 date = 2026-05-27T00:00:00+10:00
 draft = false
 slug = "my-post"
+tags = ["hugo", "homelab"]
 +++
 ```
 
@@ -47,6 +48,7 @@ Notes:
 
 - The `blog` section has a permalink override in `hugo.toml`, so posts publish at `/:slug/` rather than `/blog/:slug/`.
 - The blog listing is at `/blog/` via `content/blog/_index.md`.
+- Tags are enabled via `tags = ["tag-name"]` and generate tag pages under `/blog/tags/<tag>/`.
 - Use `<!--more-->` to control summary/excerpt cut-off where useful.
 - Use Sydney/Australia dates and timezone offsets when adding dated content.
 - Keep slugs stable once published; changing them breaks existing URLs unless redirects/aliases are added.
