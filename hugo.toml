@@ -1,6 +1,6 @@
 baseURL = "https://adampetrovic.me/"
 theme = "hugo-bearblog"
-title = "Adam Petrovic"
+title = "Adam’s Blog"
 author = "Adam Petrovic"
 copyright = "Copyright © 2026, Adam Petrovic."
 locale = "en-AU"
@@ -15,7 +15,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   tags = "/blog/:slug"
 
 [params]
-  title = "Adam Petrovic"
+  title = "Adam’s Blog"
   description = "Engineering, coding, homelab, and Kubernetes notes."
   hideMadeWithLine = false
   dateFormat = "2006-01-02"
