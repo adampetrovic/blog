@@ -1,4 +1,4 @@
-baseURL = "https://adampetrovic.github.io/blog/"
+baseURL = "https://adampetrovic.me/"
 theme = "hugo-bearblog"
 title = "Adam Petrovic"
 author = "Adam Petrovic"
