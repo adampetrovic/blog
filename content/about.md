@@ -1,7 +1,7 @@
 +++
 title = "About"
 menu = "main"
-weight = 2
+weight = 20
 +++
 
 I'm Adam Petrovic, a senior engineer at Atlassian based in Sydney, Australia.
@@ -10,4 +10,4 @@ I work on software systems professionally, and I run too many of them at home on
 
 My [homelab](https://github.com/adampetrovic/home-ops) is where a lot of that thinking gets tested. It is a bare-metal Kubernetes environment managed with Talos Linux.
 
-You can also find me on [LinkedIn](https://www.linkedin.com/in/adampetrovic/).
+You can also [view my resume](/resume.pdf) or find me on [LinkedIn](https://www.linkedin.com/in/adampetrovic/).
