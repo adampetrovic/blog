@@ -12,5 +12,6 @@ This site is intentionally small, plain, and fast.
 
 ## Start here
 
-- [Posts](/blog/)
-- [RSS](/index.xml)
+- [About](/blog/about/)
+- [Posts](/blog/posts/)
+- [RSS](/blog/index.xml)
