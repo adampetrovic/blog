@@ -1,0 +1,28 @@
+baseURL = "https://adampetrovic.github.io/blog/"
+theme = "hugo-bearblog"
+title = "Adam Petrovic"
+author = "Adam Petrovic"
+copyright = "Copyright © 2026, Adam Petrovic."
+locale = "en-AU"
+enableRobotsTXT = true
+
+# Bear Blog-style URLs: posts live at /post-slug/ rather than /posts/post-slug/.
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  posts = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  title = "Adam Petrovic"
+  description = "Engineering, coding, homelab, and Kubernetes notes."
+  hideMadeWithLine = false
+  dateFormat = "2006-01-02"
+
+[markup]
+  [markup.highlight]
+    style = "friendly"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
