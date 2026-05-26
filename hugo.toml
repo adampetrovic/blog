@@ -6,18 +6,13 @@ copyright = "Copyright © 2026, Adam Petrovic."
 locale = "en-AU"
 enableRobotsTXT = true
 
-# Bear Blog-style URLs: posts live at /post-slug/ rather than /posts/post-slug/.
+# Bear Blog-style URLs: blog entries live at /post-slug/ rather than /blog/post-slug/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 [permalinks]
-  posts = "/:slug/"
+  blog = "/:slug/"
   tags = "/blog/:slug"
-
-[[menus.main]]
-  name = "Resume"
-  url = "/resume.pdf"
-  weight = 30
 
 [params]
   title = "Adam’s Blog"

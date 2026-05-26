@@ -1,4 +1,4 @@
-{{- $pages := where .Site.RegularPages "Section" "posts" -}}
+{{- $pages := where .Site.RegularPages "Section" "blog" -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
   {{- $pages = $pages | first $limit -}}
@@ -8,7 +8,7 @@
   <channel>
     <title>{{ if eq .Kind "home" }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Recent posts on {{ .Site.Title }}</description>
+    <description>Recent blog posts on {{ .Site.Title }}</description>
     <generator>Hugo</generator>
     {{ with .Site.Language.Locale }}<language>{{ . }}</language>{{ end }}
     {{ with .Site.Copyright }}<copyright>{{ . }}</copyright>{{ end }}

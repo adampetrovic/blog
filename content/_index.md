@@ -9,5 +9,5 @@ Notes on engineering, coding, homelab infrastructure, Kubernetes, and the occasi
 This site is intentionally small, plain, and fast.
 
 ## Start here
-- [Posts](/blog/posts/)
+- [Blog](/blog/)
 - [RSS](/index.xml)
